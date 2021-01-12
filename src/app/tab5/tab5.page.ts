@@ -28,7 +28,7 @@ export class Tab1Page {
   }
 
   callContact(number: string) {
-    this.callNumber.callNumber("975308275", true)
+    this.callNumber.callNumber("133", true)
       .then(() => console.log('Dialer Launched!'))
       .catch(() => console.log('Error launching dialer'));
   }
